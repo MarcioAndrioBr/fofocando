@@ -38,6 +38,15 @@
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         font-size: 12px;
     }
+    .site {
+        border: 10px double #c82333;
+        padding: 20px;
+        background-color: white;
+        max-width: 950px;
+        margin: 0 auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
 }
   
 @media (min-width: 769px) { /* Estilos para telas maiores (tablets e desktops) */
@@ -76,6 +85,15 @@
         font-weight: bold;
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .site {
+        border: 10px double #c82333;
+        padding: 20px;
+        background-color: white;
+        max-width: 950px;
+        margin: 0 auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        position: relative;
     }    
 }
 /*-------------inicio do site-------------*/
@@ -85,17 +103,6 @@ body {
     margin: 0;
     padding: 20px;
 }
-
-.site {
-    border: 10px double #c82333;
-    padding: 20px;
-    background-color: white;
-    max-width: 950px;
-    margin: 0 auto;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    position: relative;
-}
-
 
 .link-noticia {
     display: block;
