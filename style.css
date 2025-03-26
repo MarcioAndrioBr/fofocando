@@ -1,17 +1,67 @@
+@media (max-width: 768px) { /* Estilos para telas menores (celulares) */
+  .organizar {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .organizar img {
+        width: 100%;
+        max-width: 900px;
+        border: 5px solid #c82333;
+        border-radius: 10px;
+    }   
+    .texto {
+        width: 100%;
+        text-align: justify;
+    }    
+    h2 {
+        text-align: center;
+        background-color: #c82333;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+}
+  
+@media (min-width: 769px) { /* Estilos para telas maiores (tablets e desktops) */
+    .organizar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .organizar img {
+        width: 40%;
+        max-width: 900px;
+        border: 5px solid #c82333;
+        border-radius: 10px;
+    }
+    .texto {
+        width: 50%;
+        text-align: justify;
+    }
+    h2 {
+        text-align: center;
+        background-color: #c82333;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+    }    
+}
+/*-------------inicio do site-------------*/
 body {
     font-family: Arial, sans-serif;
     background-color: #f8d7da;
     margin: 0;
     padding: 20px;
 }
-h2 {
-    text-align: center;
-    background-color: #c82333;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-}
-.container {
+
+.site {
     border: 10px double #c82333;
     padding: 20px;
     background-color: white;
@@ -32,23 +82,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-.organizar {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 900px;
-    margin: 0 auto;
-}
-.texto {
-    width: 50%;
-    text-align: justify;
-}
-.organizar img {
-    width: 40%;
-    max-width: 900px;
-    border: 5px solid #c82333;
-    border-radius: 10px;
-}
+
 .link-noticia {
     display: block;
     margin-top: 10px;
