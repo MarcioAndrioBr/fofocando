@@ -25,6 +25,19 @@
         border-radius: 10px;
         font-size: 16px;
     }
+    .fofoca-tag {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #c82333;
+        color: white;
+        padding: 5px 5px;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 12px;
+    }
 }
   
 @media (min-width: 769px) { /* Estilos para telas maiores (tablets e desktops) */
@@ -51,6 +64,18 @@
         color: white;
         padding: 15px;
         border-radius: 10px;
+    }
+    .fofoca-tag {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #c82333;
+        color: white;
+        padding: 5px 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }    
 }
 /*-------------inicio do site-------------*/
@@ -70,18 +95,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     position: relative;
 }
-.fofoca-tag {
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #c82333;
-    color: white;
-    padding: 5px 15px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
+
 
 .link-noticia {
     display: block;
