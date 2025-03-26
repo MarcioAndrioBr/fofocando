@@ -8,6 +8,15 @@
 </head>
 <body>
     <main>
+<!-- Pop-up -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <h2>Olá!</h2>
+                <p>Este é um pop-up de boas-vindas.</p>
+                <button onclick="fecharPopup()">Fechar</button>
+            </div>
+        </div>
+<!--site-->
         <div class="site">
         <div class="fofoca-tag">🔥 FOFOCA QUENTE 🔥</div>
         <section>
@@ -31,6 +40,18 @@
         </section>
         </div>
     </main>
+
+    <script>
+        // Mostra o pop-up ao carregar a página
+        window.onload = function() {
+            document.getElementById("popup").style.display = "flex";
+        };
+
+        // Função para fechar o pop-up
+        function fecharPopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
 
 </body>
 </html>
